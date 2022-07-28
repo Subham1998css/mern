@@ -1,0 +1,38 @@
+/* #box {
+  display: none;
+}
+.box {
+  margin: 100px auto;
+  background-color: blueviolet;
+  width: 500px;
+  height: 500px;
+  border-width: 10px;
+  border-color: red;
+  border-style: dashed;
+  display: block;
+} */
+#box,
+#box2 {
+  display: inline-block;
+  margin: 0px;
+}
+#box {
+  background: linear-gradient(
+    rgba(255, 0, 162, 1),
+    rgb(0, 115, 128),
+    rgb(174, 0, 255),
+    rgb(42, 61, 165)
+  );
+  width: 500px;
+  height: 500px;
+}
+#box2 {
+  background: linear-gradient(
+    rgba(255, 0, 162, 1),
+    rgb(0, 115, 128),
+    rgb(174, 0, 255),
+    rgb(42, 61, 165)
+  );
+  width: 500px;
+  height: 500px;
+}

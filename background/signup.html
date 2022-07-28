@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+       body {font-family: Arial, Helvetica, sans-serif;}
+       input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+        button {
+          background-color: #04AA6D;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+        }
+        button:hover {
+          opacity: 0.8;
+        }
+        .container {
+          padding-left: 500px;
+          padding-right: 500px; 
+        }
+         h1 {
+             text-align: center;
+             color:rgb(189, 15, 85);
+             padding-top: 200px;
+        }
+                  </style>
+            </head>
+            <body>
+                <h1>Sign up</h1>
+                <div class="container">
+                  <label for="uname">USER NAME :</label>
+      <input
+        type="text"
+        id="uname"
+        placeholder="enter your name"
+        name="uname"
+        required>
+        
+        <label for="email"> Email/phone :</label>
+        <input type="text"id="email"placeholder="Email/Phone"name="email" required>
+        
+
+        <label for="gender"> GENDER :</label>
+        <select name="gender" id="gender">
+          <option value=" ">gender</option>
+          <option value="male">male</option>
+          <option value="female">female</option>
+          <option value="other">other</option>
+        </select>
+        <br><br>
+
+        
+        <label for="pwd"><b>Password :</b></label>
+        <input type="password"id="pwd"placeholder="enter your password"name="pwd" required>
+        
+        <label for="cpwd"> Confirm Password:</label>
+        <input type="password"id="cpwd"placeholder="re enter your password "name="cpwd" required>
+        <br><br>
+          <button type="sumbit">Sign up </button>
+          <label>
+            <input type="checkbox"checked="checked"name=remember>Remember me
+          </label>
+                  </div>
+</body>
+</html>
